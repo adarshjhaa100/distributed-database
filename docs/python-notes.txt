@@ -1,0 +1,24 @@
+# Memory Management
+
+Application Performance Monitoring (APM) tool.
+One way to solve the growing data structure is to convert the dictionary 
+into a list if possible and set a max size for the list. 
+Otherwise, simply set a limit for the dictionary size and clear it whenever the limit is reached.
+
+
+tracemalloc: https://docs.python.org/3/library/tracemalloc.html
+
+Statistics on allocated memory blocks per filename and per line number: total size, number and average size of allocated memory blocks
+Compute the differences between two snapshots to detect memory leaks
+
+memory_profiler: pretty print diagnostic 
+
+Tips:
+    Not using "+" for string concatenation (use join instead)
+    Using itertools for efficient looping: Itertools Recipes (or can use more-itertools)
+    Use built in data structures and functions
+    Networking and Interprocess Communication
+    Concurrent Execution
+    Generic Operating System Services
+    File and Directory Access
+    Functional Programming Modules
